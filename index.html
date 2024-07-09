@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>동트폴리오 동수의 작업공간</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6f28eeda7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="img/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="img/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="img/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="img/img/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="img/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="img/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="img/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="img/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div class="wrap">
+      <section id="section1" class="section1 section">
+        <div class="text-box">
+          <h1 class="pc-text">
+            Hi, my <br />
+            name is Dongsu.
+          </h1>
+          <h1 class="mobile-text">Hi, my name is Dongsu</h1>
+          <p>I love creating beautiful user experiences.</p>
+        </div>
+        <div class="myRoom">
+          <img class="room" src="img/00_room3_img.png" alt="방 일러스트" />
+
+          <a
+            class="notebookAtag"
+            href="https://dongsooo.github.io/projectoverwatch2/"
+            target="_blank"
+          >
+            <img
+              class="notebook"
+              src="img/00_notebook_img.png"
+              alt="노트북 일러스트"
+            />
+          </a>
+
+          <a
+            class="bikeAtag"
+            href="https://dongsooo.github.io/projectseoulbike/"
+            target="_blank"
+          >
+            <img class="bike" src="img/00_bike_img.png" alt="자전거 일러스트" />
+          </a>
+          <a
+            class="phoneAtag"
+            href="https://dongsooo.github.io/projectsupotify/"
+            target="_blank"
+            onclick="openNewWindow(this.href); return false;"
+          >
+            <img
+              class="phone"
+              src="img/00_phone_img.png"
+              alt="핸드폰 일러스트"
+            />
+          </a>
+          <a class="paperAtag" href="#" target="_blank">
+            <img class="paper" src="img/00_paper_img.png" alt="종이 일러스트" />
+          </a>
+
+          <img class="man" src="img/00_man_img.png" alt="사람 일러스트" />
+          <a
+            class="gamepadAtag"
+            href="https://dongsooo.github.io/projectnintendo/"
+            target="_blank"
+            ><img
+              class="gamepad"
+              src="img/00_gamepad_img.png"
+              alt="게임패드 일러스트"
+          /></a>
+          <a
+            class="cardAtag"
+            href="https://dongsooo.github.io/projectkakaobank/"
+            target="_blank"
+            ><img class="card" src="img/00_card_img.png" alt="카드 일러스트"
+          /></a>
+          <a class="cupAtag" href="#" target="_blank"
+            ><img class="cup" src="img/00_cup_img.png" alt="카드 일러스트"
+          /></a>
+          <a class="dogAtag" href="#">
+            <img class="dog" src="img/00_dog_img.png" alt="" />
+          </a>
+          <img
+            class="notebookHover"
+            src="img/01_notebook_hover2.png"
+            alt="노트북 텍스트 상자"
+          />
+          <img
+            class="phoneHover"
+            src="img/01_phone_hover.png"
+            alt="핸드폰 텍스트 상자"
+          />
+          <img
+            class="bikeHover"
+            src="img/01_bike_hover.png"
+            alt="자전거 텍스트 상자"
+          />
+          <!-- <img
+            class="paperHover"
+            src="img/01_paper_hover.png"
+            alt="종이 텍스트 상자"
+          /> -->
+          <img class="gamepadHover" src="img/01_gamepad_hover.png" alt="" />
+          <img class="cardHover" src="img/01_card_hover.png" alt="" />
+          <img class="cupHover" src="img/01_cup_hover.png" alt="" />
+        </div>
+      </section>
+      <section id="section2" class="section2 section">
+        <div class="section2-text-wrap">
+          <div class="section2-title-box">
+            <h3>Portfolio</h3>
+          </div>
+          <div class="section2-text-box">
+            <p>
+              Some things<br />
+              I've worked on
+            </p>
+          </div>
+        </div>
+        <div class="section2-swiper-box">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide1">
+                <div class="swiper-img-box">
+                  <img src="img/03_port_img1.png" alt="" />
+                </div>
+                <div class="swiper-text-box">
+                  <div class="project-title-box">
+                    <p>서울 자전거 따릉이</p>
+                  </div>
+                  <div class="project-skill-box">
+                    <div class="html">HTML</div>
+                    <div class="css">CSS</div>
+                    <div class="jquery">jQuery</div>
+                  </div>
+                  <div class="project-coment-box">
+                    <p>
+                      따릉이 홈페이지 리뉴얼 <br />
+                      PC web
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper_btn_box swiper_btn_box1">
+                  <a
+                    href="https://dongsooo.github.io/projectseoulbike/"
+                    target="_blank"
+                    >View</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide2">
+                <div class="swiper-img-box">
+                  <img src="img/03_port_img2.png" alt="" />
+                </div>
+                <div class="swiper-text-box">
+                  <div class="project-title-box">
+                    <p>오버워치 2</p>
+                  </div>
+                  <div class="project-skill-box">
+                    <div class="html">HTML</div>
+                    <div class="css">CSS</div>
+                    <div class="jquery">jQuery</div>
+                  </div>
+                  <div class="project-coment-box">
+                    <p>
+                      오버워치2 홈페이지 리뉴얼 <br />
+                      팀 프로젝트 : 인덱스 페이지 제작 <br />
+                      Responsive Web
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper_btn_box swiper_btn_box2">
+                  <a
+                    href="https://dongsooo.github.io/projectoverwatch2/"
+                    target="_blank"
+                    >View</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide3">
+                <div class="swiper-img-box">
+                  <img src="img/03_port_img3.png" alt="" />
+                </div>
+                <div class="swiper-text-box">
+                  <div class="project-title-box">
+                    <p>닌텐도 e-shop</p>
+                  </div>
+                  <div class="project-skill-box">
+                    <div class="html">HTML</div>
+                    <div class="css">CSS</div>
+                    <div class="jquery">jQuery</div>
+                  </div>
+                  <div class="project-coment-box">
+                    <p>
+                      닌텐도 온라인 스토어 홈페이지 리뉴얼 <br />
+                      Responsive Web
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper_btn_box swiper_btn_box2">
+                  <a
+                    href="https://dongsooo.github.io/projectnintendo/"
+                    target="_blank"
+                    >View</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide4">
+                <div class="swiper-img-box">
+                  <img src="img/03_port_img4.png" alt="" />
+                </div>
+                <div class="swiper-text-box">
+                  <div class="project-title-box">
+                    <p>카카오뱅크</p>
+                  </div>
+                  <div class="project-skill-box">
+                    <div class="html">HTML</div>
+                    <div class="css">CSS</div>
+                    <div class="jquery">jQuery</div>
+                  </div>
+                  <div class="project-coment-box">
+                    <p>
+                      카카오뱅크 홈페이지 모작 <br />
+                      PC Web
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper_btn_box swiper_btn_box2">
+                  <a
+                    href="https://dongsooo.github.io/projectkakaobank/"
+                    target="_blank"
+                    >View</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide5">
+                <div class="swiper-img-box">
+                  <img src="img/03_port_img5.png" alt="" />
+                </div>
+                <div class="swiper-text-box">
+                  <div class="project-title-box">
+                    <p>제주맥주</p>
+                  </div>
+                  <div class="project-skill-box">
+                    <div class="html">HTML</div>
+                    <div class="css">CSS</div>
+                  </div>
+                  <div class="project-coment-box">
+                    <p>
+                      제주맥주 홈페이지 모작 <br />
+                      Responsive Web
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper_btn_box swiper_btn_box2">
+                  <a
+                    href="https://dongsooo.github.io/projectjejubeer/"
+                    target="_blank"
+                    >View</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide6">
+                <div class="swiper-img-box">
+                  <img src="img/03_port_img6.png" alt="" />
+                </div>
+                <div class="swiper-text-box">
+                  <div class="project-title-box">
+                    <p>수포티파이</p>
+                  </div>
+                  <div class="project-skill-box">
+                    <div class="react">React</div>
+                    <div class="js">JS</div>
+                  </div>
+                  <div class="project-coment-box">
+                    <p>
+                      수포티파이 어플 제작 <br />
+                      360 x 740에서 최적화 <br />
+                      Mobile App
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper_btn_box swiper_btn_box2">
+                  <a
+                    href="https://dongsooo.github.io/projectsupotify/"
+                    target="_blank"
+                    onclick="openNewWindow(this.href); return false;"
+                    >View</a
+                  >
+                </div>
+              </div>
+              <!-- 추가적인 슬라이드들 -->
+            </div>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="fa-solid fa-circle-chevron-left"></i>
+          </div>
+          <div class="swiper-button-next">
+            <i class="fa-solid fa-circle-chevron-right"></i>
+          </div>
+        </div>
+        <div class="section2-padding"></div>
+      </section>
+      <section id="section3" class="section3 section"></section>
+      <div class="myIntroduce">
+        <div class="myIntroduceContent">
+          <div class="myIntroduceContent_xBox">
+            <i class="fa-solid fa-xmark xMark"></i>
+          </div>
+          <div class="myIntroduceContent_titleBox">
+            <p>About me</p>
+          </div>
+          <div class="myIntroduceContent_textBox">
+            <div class="textTopbox">
+              <div class="pictureBox"></div>
+              <div class="myInfoBox">
+                <p>이름 : 김동수</p>
+                <p>생년월일 : 1989.10.8</p>
+                <p>핸드폰 : 010-3765-9984</p>
+                <p>이메일 : ehdtn8910@naver.com</p>
+              </div>
+            </div>
+            <div class="bottomBox">
+              <div class="bottomSkillBox">
+                <canvas id="myBarChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/style.js"></script>
+  </body>
+</html>
